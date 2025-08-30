@@ -34,20 +34,42 @@ p{
     
 }
 .btn1{
-    padding: 10px 20px;
+    padding: 10px 25px 10px 25px;
     background-color: transparent;
     border-radius: 20px;
     font-size: 15px;
     font-weight: 600;
     border: 2px solid black;
-    margin: 10px;
+    margin: 10px 10px 10px 0px;
+    transition: all 0.5s ease;
+    cursor: pointer;
 }
 .btn2{
     padding: 10px 20px;
-    background-color: transparent;
+    background-color: black;
+    color: white;
     border-radius: 20px;
     font-size: 15px;
     font-weight: 600;
     border: 2px solid black;
-    margin: 10px;
+    margin: 10px 10px 10px 0px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+
+}
+.btn2:hover{
+    background-color: transparent;
+    color: black;
+    transform: scale(1.1);
+}
+.socialimg{
+    transition: all 0.3s ease;
+}
+.socialimg:hover{
+    transform: scale(0.9);
 }
